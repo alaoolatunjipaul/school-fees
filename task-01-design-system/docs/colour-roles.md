@@ -42,3 +42,7 @@ The error pair passes AA but not AAA for normal text, as predicted by 6.16:1.
 | #BA1A1A on #F5FBF7 | 6.16:1 |
 
 WebAIM truncates to two decimals, so 7.5684 shows as 7.56 and 7.2168 as 7.21. The table above rounds, which is why it shows 7.57 and 7.22. The pass and fail results are identical either way.
+
+## Tones, and why 13 is enough
+
+Each palette has 13 tones, running from 0 (black) to 100 (white). That’s enough for both themes because light mode uses the darker tones for main colours (primary at 40, on-primary at 100) and dark mode uses the lighter ones (primary at 80, on-primary at 20). So one source colour covers both, and I didn’t need a second palette for dark mode. In my own palette, on-primary-container in light mode is #005046, the same as primary30.
