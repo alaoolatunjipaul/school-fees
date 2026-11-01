@@ -20,3 +20,15 @@ Method: WCAG 2.x relative luminance formula. Surface is #F5FBF7. Spot-checks wit
 | primary-container vs surface | #9FF2E0 | #F5FBF7 | 1.23:1 | Fails. Not used for text, and not used alone to mark a boundary. |
 
 primary50 (#3B8376) on white is 4.47:1, so it is not used for text.
+
+## Spot-check with a second tool
+
+Tool: WebAIM contrast checker, run on 1 Nov 2026. Results agree with the computed ratios above.
+
+| Pair | Normal text AA | Normal text AAA | Large text AAA |
+|---|---|---|---|
+| #FFFFFF on #0A5F53 | Pass | Pass | Pass |
+| #0A5F53 on #F5FBF7 | Pass | Pass | Pass |
+| #BA1A1A on #F5FBF7 | Pass | Fail | Pass |
+
+The error pair passes AA but not AAA for normal text, as predicted by 6.16:1.
