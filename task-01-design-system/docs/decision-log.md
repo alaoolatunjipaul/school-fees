@@ -18,3 +18,4 @@
 - Type scale: all 15 line heights set to font size x 1.4 (display, headline), x 1.5 (title, body), x 1.6 (label). Body and label fonts changed from the plugin default Roboto to Noto Sans so the app loads one family. Display large letter spacing changed from the default -0.25px to -0.57px (1% of 57px), judged by eye against the default.
 - Correction: display large letter spacing is -1.14px (2% of 57px), not -0.57px. I tried -0.57 first and could barely tell it from the default -0.25, so I went to -1.14.
 - Applied the same 2% letter-spacing rule to all three display styles (large -1.14px, medium -0.9px, small -0.72px) so the scale follows one stated rule. Only display large was compared by eye against the default.
+- Title styles set to Medium weight (third divergence from the plugin default of Regular). Labels already use Medium. Full type scale recorded in type-scale.md.

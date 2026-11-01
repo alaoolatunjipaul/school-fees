@@ -16,3 +16,10 @@
 
 
 
+
+## 3. Title weight: Medium instead of Regular
+
+- **Default:** Regular. That is what the plugin generated for all three title styles in my file.
+- **Chosen:** Medium on title large, medium and small.
+- **Why:** Titles label the figures a parent scans for, such as the amount owed and the amount paid. Medium separates them from the Regular body text beneath. Labels already use Medium, so I expect no extra weight to load, though I have not yet checked how the font will be served.
+- **Where it fails:** If a title is already prominent from its size and colour, Medium adds weight without helping anyone scan. The page then looks heavier, and the emphasis stops meaning anything.
