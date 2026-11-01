@@ -32,3 +32,13 @@ Tool: WebAIM contrast checker, run on 1 Nov 2026. Results agree with the compute
 | #BA1A1A on #F5FBF7 | Pass | Fail | Pass |
 
 The error pair passes AA but not AAA for normal text, as predicted by 6.16:1.
+
+### WebAIM ratios as displayed
+
+| Pair | WebAIM ratio |
+|---|---|
+| #FFFFFF on #0A5F53 | 7.56:1 |
+| #0A5F53 on #F5FBF7 | 7.21:1 |
+| #BA1A1A on #F5FBF7 | 6.16:1 |
+
+WebAIM truncates to two decimals, so 7.5684 shows as 7.56 and 7.2168 as 7.21. The table above rounds, which is why it shows 7.57 and 7.22. The pass and fail results are identical either way.
