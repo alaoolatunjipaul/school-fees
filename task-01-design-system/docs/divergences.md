@@ -10,7 +10,9 @@
 ## 2. Display large letter spacing: -1.14px instead of -0.25px
 
 - **Default:** -0.25px.
-- **Chosen:** -1.14px, which is 2% of the 57px size.
-- **Why:** The brief says compact spacing helps people scan. I tried it and could barely tell the difference from the default, because the change from the default is only 0.89px, about 1.6% of a 57px letter. I kept it as a mild nudge and not a visible improvement.
+- **Chosen:** 2% of the font size on all three display styles: -1.14px on large (57px), -0.9px on medium (45px) and -0.72px on small (36px).
+- **Why:** The brief says compact spacing helps people scan. On display large I tried it and could barely tell the difference from the default, because the change from the default is only 0.89px, about 1.6% of a 57px letter. I kept it as a mild nudge and not a visible improvement.
 - **Where it fails:** Tighter spacing hurts readers with low vision or dyslexia, who often need looser letters. On a very narrow phone, long words in a heading could also crowd.
+
+
 
