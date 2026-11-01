@@ -11,5 +11,6 @@
 
 - **Default:** -0.25px.
 - **Chosen:** -1.14px, which is 2% of the 57px size.
-- **Why:** The brief says compact spacing helps people scan. I tried it and could barely tell the difference from the default, because the change is only 0.32px, about half a percent of a letter. I kept it as a mild nudge and not a visible improvement.
+- **Why:** The brief says compact spacing helps people scan. I tried it and could barely tell the difference from the default, because the change from the default is only 0.89px, about 1.6% of a 57px letter. I kept it as a mild nudge and not a visible improvement.
 - **Where it fails:** Tighter spacing hurts readers with low vision or dyslexia, who often need looser letters. On a very narrow phone, long words in a heading could also crowd.
+
