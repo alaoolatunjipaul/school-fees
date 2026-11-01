@@ -1,0 +1,13 @@
+PS C:\Users\alaoo\Desktop\school-fees> git commit -m "chore: add gitignore, env example and five-task folder structure" 
+[master (root-commit) 3238dac] chore: add gitignore, env example and five-task folder structure
+ 9 files changed, 14 insertions(+)
+ create mode 100644 .env.example
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 task-01-design-system/docs/.gitkeep
+ create mode 100644 task-01-design-system/evidence/.gitkeep
+ create mode 100644 task-02-repository-and-scaffold/.gitkeep
+ create mode 100644 task-03-client-validation/.gitkeep
+ create mode 100644 task-04-server-security/.gitkeep
+ create mode 100644 task-05-sessions-compliance-defence/.gitkeep
+PS C:\Users\alaoo\Desktop\school-fees>
