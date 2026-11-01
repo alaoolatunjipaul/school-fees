@@ -6,3 +6,4 @@
 - Started a new repo (school-fees) instead of reusing NeedCentral. Reason: that repo was built before the tasks, so I could not capture the process evidence, and the niche was too broad.
 - Changed the parent's phone from a recent smartphone with reliable data to a mid-range Android with data that runs low. Reason: current cost-of-living pressure in Nigeria, which I checked after the first draft.
 - Parent interview still to do: need a real bursar or proprietor in Surulere before Task 5.
+- Brand colour: teal-green #0A5F53. Source: starting point was Nigerian flag green (emerald green, representing agriculture; hex values for it vary across sources, e.g. #1B7339), shifted toward teal and darkened for contrast. Contrast on white computed with the WCAG formula: 7.57:1 (AAA). Chose it over #0B6B5D (6.41:1) for extra margin for parents reading amounts on a bus.
