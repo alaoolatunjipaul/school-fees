@@ -3,7 +3,7 @@
     "Schemes": {
       "Primary": {
         "$type": "color",
-        "$value": "#0a5f53",
+        "$value": "{ref.primary.40}",
         "$description": "",
         "$extensions": {
           "mode": {}
@@ -11,7 +11,7 @@
       },
       "Surface Tint": {
         "$type": "color",
-        "$value": "#0a5f53",
+        "$value": "{ref.primary.40}",
         "$description": "",
         "$extensions": {
           "mode": {}
@@ -496,6 +496,18 @@
       "Surface Tint 14%": {
         "$type": "color",
         "$value": "#0a5f5324",
+        "$description": "",
+        "$extensions": {
+          "mode": {}
+        }
+      }
+    }
+  },
+  "ref": {
+    "primary": {
+      "40": {
+        "$type": "color",
+        "$value": "#0a5f53",
         "$description": "",
         "$extensions": {
           "mode": {}
@@ -1112,9 +1124,10 @@
       "spec": "https://www.designtokens.org/tr/2025.10/format/",
       "colorMode": "hex",
       "variableCollections": [
-        "material-theme"
+        "material-theme",
+        "ref"
       ],
-      "createdAt": "2026-11-02T04:44:19.608Z"
+      "createdAt": "2026-11-02T05:07:18.645Z"
     }
   }
 }
