@@ -17,3 +17,9 @@ I started from 12%, 16% and 24% opacity. On the pale page surface (#F5FBF7) the 
 - Soft: cards at rest.
 - Medium: raised or hovered cards.
 - Hard: dialogs and payment confirmations that float above the page.
+
+## Brand-coloured shadow against black
+
+I compared the medium shadow in #0A5F53 with the same shadow in black (#000000) on the pale surface (#F5FBF7). Screenshot: evidence/06-shadow-teal-vs-black.png.
+
+A shadow built from the brand colour looked softer and blended with the pale green page, while the black one looked greyer and heavier next to it. A real shadow is the surface colour with less light on it, so tinting it with the brand colour keeps it in the same family as the page, and pure black adds a neutral grey that doesn't belong to the palette.
