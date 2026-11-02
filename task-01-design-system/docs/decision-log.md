@@ -19,3 +19,4 @@
 - Correction: display large letter spacing is -1.14px (2% of 57px), not -0.57px. I tried -0.57 first and could barely tell it from the default -0.25, so I went to -1.14.
 - Applied the same 2% letter-spacing rule to all three display styles (large -1.14px, medium -0.9px, small -0.72px) so the scale follows one stated rule. Only display large was compared by eye against the default.
 - Title styles set to Medium weight (third divergence from the plugin default of Regular). Labels already use Medium. Full type scale recorded in type-scale.md.
+- Variables search for the old primary #016B5D found five more copies: Surface Tint 5%, 8%, 11%, 12% and 14% in the Surfaces group. Changed them to #0A5F53 and searched again to confirm none remain. A search for the plugin-generated #1C6A5D also returned no variables.
