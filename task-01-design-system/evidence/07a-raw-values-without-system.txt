@@ -1,0 +1,64 @@
+﻿Select-String -Path task-01-design-system\screen-without-system.html -Pattern '#[0-9a-fA-F]{3,8}\b|rgba?\(|hsla?\('
+
+task-01-design-system\screen-without-system.html:9:      --green-900: 
+#0b3d2e;
+task-01-design-system\screen-without-system.html:10:      --green-700: 
+#0f5c42;
+task-01-design-system\screen-without-system.html:11:      --green-500: 
+#178a63;
+task-01-design-system\screen-without-system.html:12:      --green-100: 
+#e6f4ee;
+task-01-design-system\screen-without-system.html:13:      --gold: #f2b53b;
+task-01-design-system\screen-without-system.html:14:      --ink: #15211c;
+task-01-design-system\screen-without-system.html:15:      --muted: #667a71;
+task-01-design-system\screen-without-system.html:16:      --line: #e3ebe6;
+task-01-design-system\screen-without-system.html:17:      --card: #ffffff;
+task-01-design-system\screen-without-system.html:18:      --bg: #eef3f0;
+task-01-design-system\screen-without-system.html:43:      box-shadow: 0 24px 
+60px rgba(11, 61, 46, 0.18), 0 2px 6px rgba(11, 61, 46, 0.06);
+task-01-design-system\screen-without-system.html:51:        
+radial-gradient(circle at 88% -10%, rgba(242, 181, 59, 0.28), transparent 
+45%),
+task-01-design-system\screen-without-system.html:53:      color: #fff;
+task-01-design-system\screen-without-system.html:68:      background: 
+rgba(255, 255, 255, 0.12);
+task-01-design-system\screen-without-system.html:69:      border: 1px solid 
+rgba(255, 255, 255, 0.25);
+task-01-design-system\screen-without-system.html:90:      color: rgba(255, 
+255, 255, 0.6);
+task-01-design-system\screen-without-system.html:105:      background: 
+linear-gradient(140deg, #ffd97a, var(--gold));
+task-01-design-system\screen-without-system.html:112:      box-shadow: 0 4px 
+12px rgba(0, 0, 0, 0.18);
+task-01-design-system\screen-without-system.html:119:      color: rgba(255, 
+255, 255, 0.6);
+task-01-design-system\screen-without-system.html:132:      color: rgba(255, 
+255, 255, 0.72);
+task-01-design-system\screen-without-system.html:173:      color: #fff;
+task-01-design-system\screen-without-system.html:174:      box-shadow: 0 
+12px 24px rgba(15, 92, 66, 0.24);
+task-01-design-system\screen-without-system.html:185:      border: 26px 
+solid rgba(255, 255, 255, 0.06);
+task-01-design-system\screen-without-system.html:194:      color: rgba(255, 
+255, 255, 0.68);
+task-01-design-system\screen-without-system.html:219:      color: rgba(255, 
+255, 255, 0.9);
+task-01-design-system\screen-without-system.html:220:      background: 
+rgba(255, 255, 255, 0.1);
+task-01-design-system\screen-without-system.html:221:      border: 1px solid 
+rgba(255, 255, 255, 0.16);
+task-01-design-system\screen-without-system.html:230:      background: 
+#f7faf8;
+task-01-design-system\screen-without-system.html:282:      color: #08251b;
+task-01-design-system\screen-without-system.html:283:      background: 
+linear-gradient(140deg, #ffd471, var(--gold));
+task-01-design-system\screen-without-system.html:290:      box-shadow: 0 
+10px 22px rgba(242, 181, 59, 0.38);
+task-01-design-system\screen-without-system.html:296:    .pay-btn:hover { 
+filter: brightness(1.03); box-shadow: 0 12px 26px rgba(242, 181, 59, 0.46); }
+task-01-design-system\screen-without-system.html:316:      color: #9aaba3;
+task-01-design-system\screen-without-system.html:327:          <svg 
+viewBox="0 0 24 24" fill="none" stroke="#f2b53b" stroke-width="1.8" 
+stroke-linecap="round" stroke-linejoin="round">
+
+
