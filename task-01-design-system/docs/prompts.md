@@ -88,3 +88,20 @@ For letter-spacing and line-height I replaced "use rem for sizes" with em and a 
 ## Attempt 0 (mistake, made before Prompt 1 was sent)
 
 I opened OpenCode and pasted two PowerShell commands (mkdir task-01-design-system\scripts and dir task-01-design-system\docs) into the agent instead of the prompt. The agent combined them into a malformed command, created an empty folder called scriptsdir inside task-01-design-system, and the tool run was aborted. I found the folder with dir and removed it. git status afterwards showed no other changes.
+
+## Prompt 2: build one screen with the design system
+
+Drafted with Claude's help, then edited by me. Sent to OpenCode in a new session.
+
+Create one file at task-01-design-system/screen-with-system.html. Read task-01-design-system/tokens.css first and use it as the only source of colour, typography and shadow. Link it with <link rel="stylesheet" href="tokens.css">. Do not create any other file except this one.
+
+Rules:
+1. Do not write any raw colour value anywhere in the file: no hex, no rgb(), rgba() or hsl(), including inside SVG. Use var(--color-...) roles only. Never use the --ref-* properties, because they are internal. For icons use currentColor.
+2. For text, use the --text-* properties of the style that fits each element (for example --text-title-large-font-size with its font-weight, line-height and letter-spacing). Do not type any font size, weight, line height or letter spacing yourself.
+3. For shadows use --shadow-soft, --shadow-medium or --shadow-hard. Do not invent a shadow.
+4. You may add one <link> to load the font Noto Sans, weights 400 and 500 only.
+5. Do not use gradients or any decorative effect that is not in tokens.css.
+
+Build a single mobile screen for a parent of a pupil at Surulere Heritage Primary School. It shows: the school name; the pupil's name (Ayomide Bello, Primary 4); term fees owed ₦85,000; amount paid so far ₦45,000; balance ₦40,000; next instalment due date 15 November 2026; a "Pay now" button; and a short line saying payments are confirmed on this screen straight away.
+
+After writing it, list every file you created. Then list, for each element on the screen, which --color-* role and which --text-* style you used, and anything you could not do with the tokens.

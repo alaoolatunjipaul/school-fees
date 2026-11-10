@@ -1,0 +1,56 @@
+PS C:\Users\alaoo\Desktop\school-fees> Select-String -Path task-01-design-system\screen-with-system.html -Pattern 'pay' -Context 0,6
+
+> task-01-design-system\screen-with-system.html:278:    .pay {
+  task-01-design-system\screen-with-system.html:279:      width: 100%;        
+  task-01-design-system\screen-with-system.html:280:      border: none;       
+  task-01-design-system\screen-with-system.html:281:      cursor: pointer;    
+  task-01-design-system\screen-with-system.html:282:      display: flex;      
+  task-01-design-system\screen-with-system.html:283:      align-items:        
+center;
+  task-01-design-system\screen-with-system.html:284:      justify-content:    
+center;
+> task-01-design-system\screen-with-system.html:293:    .pay svg {
+  task-01-design-system\screen-with-system.html:294:      width: 18px;        
+  task-01-design-system\screen-with-system.html:295:      height: 18px;       
+  task-01-design-system\screen-with-system.html:296:    }
+  task-01-design-system\screen-with-system.html:297:
+> task-01-design-system\screen-with-system.html:298:    .pay:active {
+  task-01-design-system\screen-with-system.html:299:      box-shadow:
+var(--shadow-soft);
+  task-01-design-system\screen-with-system.html:300:      transform:
+translateY(1px);
+  task-01-design-system\screen-with-system.html:301:    }
+  task-01-design-system\screen-with-system.html:302:
+> task-01-design-system\screen-with-system.html:303:    .pay:focus-visible {  
+  task-01-design-system\screen-with-system.html:304:      outline: 2px solid  
+var(--color-primary);
+  task-01-design-system\screen-with-system.html:305:      outline-offset:     
+2px;
+  task-01-design-system\screen-with-system.html:306:    }
+  task-01-design-system\screen-with-system.html:307:
+  task-01-design-system\screen-with-system.html:308:    .confirmed {
+  task-01-design-system\screen-with-system.html:309:      color:
+var(--color-on-surface-variant);
+> task-01-design-system\screen-with-system.html:388:      <button class="pay  
+text-label-large" type="button">
+> task-01-design-system\screen-with-system.html:389:        Pay now
+  task-01-design-system\screen-with-system.html:390:        <svg viewBox="0   
+0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  task-01-design-system\screen-with-system.html:391:          <path d="M5     
+12h14M13 6l6 6-6 6" />
+  task-01-design-system\screen-with-system.html:392:        </svg>
+  task-01-design-system\screen-with-system.html:393:      </button>
+  task-01-design-system\screen-with-system.html:394:
+  task-01-design-system\screen-with-system.html:395:      <p
+class="confirmed text-body-small">
+> task-01-design-system\screen-with-system.html:399:        Payments are      
+confirmed on this screen straight away
+  task-01-design-system\screen-with-system.html:400:      </p>
+  task-01-design-system\screen-with-system.html:401:    </section>
+  task-01-design-system\screen-with-system.html:402:  </main>
+  task-01-design-system\screen-with-system.html:403:</body>
+  task-01-design-system\screen-with-system.html:404:</html>
+
+
+PS C:\Users\alaoo\Desktop\school-fees> 

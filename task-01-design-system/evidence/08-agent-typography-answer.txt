@@ -1,0 +1,13 @@
+﻿Question asked in OpenCode, same session as the screen:
+Which --text-* style did you use for the "Pay now" button label, and which for the school name? Answer from the file you wrote, not from memory.
+
+Agent's answer (copied as given):
+From screen-with-system.html:
+- Pay now button label: --text-label-large-* (line 388)
+- School name: --text-title-large-* (line 339)
+
+My check against the file:
+- Line 388 reads class="pay text-label-large". Correct.
+- Line 339 reads <h1 class="school text-title-large">Surulere Heritage Primary School</h1>. Correct.
+- The class .text-title-large sets font-family, font-weight, font-size, line-height and letter-spacing from var(--text-title-large-*) properties, so the style comes from tokens.css.
+- The agent also added "Parent portal" (text-label-medium) in the header, which my prompt did not ask for.

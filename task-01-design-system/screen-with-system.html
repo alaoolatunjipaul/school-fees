@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>School Fees — Surulere Heritage Primary School</title>
+  <link rel="stylesheet" href="tokens.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&display=swap" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body {
+      min-height: 100%;
+    }
+
+    body {
+      font-family: var(--text-body-large-font-family);
+      background-color: var(--color-background);
+      color: var(--color-on-background);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 24px 16px;
+    }
+
+    .text-display-small {
+      font-family: var(--text-display-small-font-family);
+      font-weight: var(--text-display-small-font-weight);
+      font-size: var(--text-display-small-font-size);
+      line-height: var(--text-display-small-line-height);
+      letter-spacing: var(--text-display-small-letter-spacing);
+    }
+
+    .text-title-large {
+      font-family: var(--text-title-large-font-family);
+      font-weight: var(--text-title-large-font-weight);
+      font-size: var(--text-title-large-font-size);
+      line-height: var(--text-title-large-line-height);
+      letter-spacing: var(--text-title-large-letter-spacing);
+    }
+
+    .text-title-medium {
+      font-family: var(--text-title-medium-font-family);
+      font-weight: var(--text-title-medium-font-weight);
+      font-size: var(--text-title-medium-font-size);
+      line-height: var(--text-title-medium-line-height);
+      letter-spacing: var(--text-title-medium-letter-spacing);
+    }
+
+    .text-title-small {
+      font-family: var(--text-title-small-font-family);
+      font-weight: var(--text-title-small-font-weight);
+      font-size: var(--text-title-small-font-size);
+      line-height: var(--text-title-small-line-height);
+      letter-spacing: var(--text-title-small-letter-spacing);
+    }
+
+    .text-body-medium {
+      font-family: var(--text-body-medium-font-family);
+      font-weight: var(--text-body-medium-font-weight);
+      font-size: var(--text-body-medium-font-size);
+      line-height: var(--text-body-medium-line-height);
+      letter-spacing: var(--text-body-medium-letter-spacing);
+    }
+
+    .text-body-small {
+      font-family: var(--text-body-small-font-family);
+      font-weight: var(--text-body-small-font-weight);
+      font-size: var(--text-body-small-font-size);
+      line-height: var(--text-body-small-line-height);
+      letter-spacing: var(--text-body-small-letter-spacing);
+    }
+
+    .text-label-large {
+      font-family: var(--text-label-large-font-family);
+      font-weight: var(--text-label-large-font-weight);
+      font-size: var(--text-label-large-font-size);
+      line-height: var(--text-label-large-line-height);
+      letter-spacing: var(--text-label-large-letter-spacing);
+    }
+
+    .text-label-medium {
+      font-family: var(--text-label-medium-font-family);
+      font-weight: var(--text-label-medium-font-weight);
+      font-size: var(--text-label-medium-font-size);
+      line-height: var(--text-label-medium-line-height);
+      letter-spacing: var(--text-label-medium-letter-spacing);
+    }
+
+    .text-label-small {
+      font-family: var(--text-label-small-font-family);
+      font-weight: var(--text-label-small-font-weight);
+      font-size: var(--text-label-small-font-size);
+      line-height: var(--text-label-small-line-height);
+      letter-spacing: var(--text-label-small-letter-spacing);
+    }
+
+    .screen {
+      width: 100%;
+      max-width: 390px;
+      background-color: var(--color-surface);
+      border: 1px solid var(--color-outline-variant);
+      border-radius: 28px;
+      overflow: hidden;
+      box-shadow: var(--shadow-hard);
+    }
+
+    .header {
+      background-color: var(--color-primary);
+      color: var(--color-on-primary);
+      padding: 24px 22px 26px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .crest {
+      width: 44px;
+      height: 44px;
+      border-radius: 14px;
+      background-color: var(--color-primary-container);
+      color: var(--color-on-primary-container);
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+    }
+
+    .crest svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    .brand-text {
+      min-width: 0;
+    }
+
+    .school {
+      color: var(--color-on-primary);
+    }
+
+    .school-sub {
+      color: var(--color-primary-container);
+      margin-top: 2px;
+      text-transform: uppercase;
+    }
+
+    .pupil {
+      margin-top: 22px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .avatar {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background-color: var(--color-primary-container);
+      color: var(--color-on-primary-container);
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+    }
+
+    .pupil-label {
+      color: var(--color-primary-container);
+    }
+
+    .pupil-name {
+      color: var(--color-on-primary);
+      display: flex;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 4px 8px;
+    }
+
+    .pupil-class {
+      color: var(--color-primary-container);
+    }
+
+    .content {
+      padding: 20px 20px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .hero {
+      background-color: var(--color-primary-container);
+      color: var(--color-on-primary-container);
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .hero-label {
+      color: var(--color-on-primary-container);
+      text-transform: uppercase;
+    }
+
+    .hero-amount {
+      color: var(--color-on-primary-container);
+      margin-top: 4px;
+    }
+
+    .hero-due {
+      color: var(--color-on-primary-container);
+      margin-top: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .hero-due svg {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+    }
+
+    .breakdown {
+      background-color: var(--color-surface-container-lowest);
+      border: 1px solid var(--color-outline-variant);
+      border-radius: 18px;
+      padding: 2px 18px;
+    }
+
+    .row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 15px 0;
+    }
+
+    .row + .row {
+      border-top: 1px solid var(--color-outline-variant);
+    }
+
+    .row-label {
+      color: var(--color-on-surface-variant);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .dot-paid {
+      background-color: var(--color-success);
+    }
+
+    .dot-balance {
+      background-color: var(--color-warning);
+    }
+
+    .row-value {
+      color: var(--color-on-surface);
+    }
+
+    .row-value-paid {
+      color: var(--color-success);
+    }
+
+    .pay {
+      width: 100%;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background-color: var(--color-primary);
+      color: var(--color-on-primary);
+      border-radius: 16px;
+      padding: 16px 20px;
+      box-shadow: var(--shadow-medium);
+    }
+
+    .pay svg {
+      width: 18px;
+      height: 18px;
+    }
+
+    .pay:active {
+      box-shadow: var(--shadow-soft);
+      transform: translateY(1px);
+    }
+
+    .pay:focus-visible {
+      outline: 2px solid var(--color-primary);
+      outline-offset: 2px;
+    }
+
+    .confirmed {
+      color: var(--color-on-surface-variant);
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 8px;
+      text-align: center;
+      padding: 2px 8px 0;
+    }
+
+    .confirmed svg {
+      width: 14px;
+      height: 14px;
+      color: var(--color-success);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+  </style>
+</head>
+<body>
+  <main class="screen">
+    <header class="header">
+      <div class="brand">
+        <div class="crest" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3 2.5 8 12 13l9.5-5L12 3Z" />
+            <path d="M6 10.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-5.5" />
+            <path d="M21.5 8v6" />
+          </svg>
+        </div>
+        <div class="brand-text">
+          <h1 class="school text-title-large">Surulere Heritage Primary School</h1>
+          <p class="school-sub text-label-medium">Parent portal</p>
+        </div>
+      </div>
+
+      <div class="pupil">
+        <div class="avatar" aria-hidden="true">
+          <span class="text-title-small">AB</span>
+        </div>
+        <div>
+          <div class="pupil-label text-label-small">Pupil</div>
+          <div class="pupil-name text-title-medium">
+            Ayomide Bello
+            <span class="pupil-class text-label-medium">Primary 4</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="hero">
+        <p class="hero-label text-label-medium">Term fees owed</p>
+        <p class="hero-amount text-display-small">₦85,000</p>
+        <p class="hero-due text-label-large">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="4.5" width="18" height="17" rx="3" />
+            <path d="M3 9.5h18M8 2.5v4M16 2.5v4" />
+          </svg>
+          Next instalment due 15 November 2026
+        </p>
+      </div>
+
+      <div class="breakdown">
+        <div class="row">
+          <span class="row-label text-body-medium">
+            <span class="dot dot-paid"></span>
+            Amount paid so far
+          </span>
+          <span class="row-value row-value-paid text-title-medium">₦45,000</span>
+        </div>
+        <div class="row">
+          <span class="row-label text-body-medium">
+            <span class="dot dot-balance"></span>
+            Balance
+          </span>
+          <span class="row-value text-title-medium">₦40,000</span>
+        </div>
+      </div>
+
+      <button class="pay text-label-large" type="button">
+        Pay now
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M5 12h14M13 6l6 6-6 6" />
+        </svg>
+      </button>
+
+      <p class="confirmed text-body-small">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M20 6 9 17l-5-5" />
+        </svg>
+        Payments are confirmed on this screen straight away
+      </p>
+    </section>
+  </main>
+</body>
+</html>
