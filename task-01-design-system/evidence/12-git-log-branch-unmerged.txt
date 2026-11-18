@@ -1,0 +1,33 @@
+﻿* 67439c6 docs: add token reference regression evidence and write-up
+* 8d96892 docs: add screen built with the design system and proof the agent used it
+* 296438b docs: add screen built without the design system and its raw colour search
+* f74ab81 docs: save agent replies, prompt changes and attempt 0
+* 32a5d00 feat: generate tokens.css from token export and record line-height rounding defect
+* 5d4303a feat: add ref collection and alias primary roles in token export
+* 1124cfb docs: add incomplete and complete token exports with diff
+* cfda557 docs: record stale variables fixed and verified by search
+* 02643ac docs: compare brand-coloured and black shadows with screenshot
+* 601d04f docs: record three brand-coloured shadows and screenshot
+* 149fb90 docs: add title weight divergence to divergences and decision log
+* 57e4cad docs: write type scale with all 15 styles
+* 5ebd3ba docs: apply 2% display letter spacing rule across all display styles
+* 817c7b6 docs: correct spacing difference in divergences to match -1.14
+* 574d1dd docs: correct display large letter spacing in decision log
+* 5ea819a feat: set line heights by multiplier and tighten display large spacing
+* d8366c7 docs: record Noto Sans typeface decision
+* 1db0d1d docs: explain tone count and light and dark coverage
+* 7c6e934 docs: add surface-tint fix screenshot as evidence
+* c5ee64c docs: add webaim contrast ratios and note truncation difference
+* fc8da0a docs: add contrast ratio table and webaim spot-check
+* 8e65901 docs: record role contrast ratios and fix stale surface-tint
+* 5bfb27b docs: record sys primary fix and stale contrast description
+* 0a2a072 docs: add warning colour and record status colour contrast finding
+* 65cc89f docs: add success colour and record plugin output
+* 040a28c docs: write before and after pinning paragraph
+* a8aed74 feat: pin primary40 to brand colour and capture after-pin palette
+* 9a42944 docs: add palette before pinning as evidence
+* 5f7bd8d docs: record brand colour choice, source and contrast check
+* 1079b47 docs: start decision log with school choice and phone assumption
+* c0eb983 docs: add business brief for Surulere Heritage Primary School
+* 8954ec7 docs: add first-commit terminal output as evidence
+* 3238dac chore: add gitignore, env example and five-task folder structure
