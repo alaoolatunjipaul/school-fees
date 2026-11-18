@@ -1,0 +1,7 @@
+﻿Experiment branch: experiment-break-token-reference (deleted without merging)
+
+git cat-file -t 24cc11a
+commit
+
+git merge-base --is-ancestor 24cc11a main   (exit code 0 = merged, 1 = not merged)
+exit code: 1
