@@ -1,0 +1,35 @@
+﻿diff --git a/task-01-design-system/evidence/06-tokens-complete.json b/task-01-design-system/evidence/06-tokens-complete.json
+index e3c8102..afd2131 100644
+--- a/task-01-design-system/evidence/06-tokens-complete.json
++++ b/task-01-design-system/evidence/06-tokens-complete.json
+@@ -3,7 +3,7 @@
+     "Schemes": {
+       "Primary": {
+         "$type": "color",
+-        "$value": "{ref.primary.40}",
++        "$value": "#0a5f53",
+         "$description": "",
+         "$extensions": {
+           "mode": {}
+@@ -507,7 +507,7 @@
+     "primary": {
+       "40": {
+         "$type": "color",
+-        "$value": "#0a5f53",
++        "$value": "#c0392b",
+         "$description": "",
+         "$extensions": {
+           "mode": {}
+diff --git a/task-01-design-system/screen-with-system.html b/task-01-design-system/screen-with-system.html
+index d9e8f14..acb6d90 100644
+--- a/task-01-design-system/screen-with-system.html
++++ b/task-01-design-system/screen-with-system.html
+@@ -283,7 +283,7 @@
+       align-items: center;
+       justify-content: center;
+       gap: 10px;
+-      background-color: var(--color-primary);
++      background-color: var(--color-surface-tint);
+       color: var(--color-on-primary);
+       border-radius: 16px;
+       padding: 16px 20px;
